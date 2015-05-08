@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+此文件是由 JavaTM Architecture for XML Binding (JAXB) 引用实现 v2.2.11 生成的
+请访问 <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+在重新编译源模式时, 对此文件的所有修改都将丢失。
+生成时间: 2015.05.08 时间 02:08:28 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://ws.cdyne.com/WeatherWS/">
+    <schemaBindings map="false">
+      <package name="hello.wsdl"/>
+    </schemaBindings>
+    <bindings scd="tns:GetWeatherInformation">
+      <class ref="hello.wsdl.GetWeatherInformation"/>
+    </bindings>
+    <bindings scd="tns:GetWeatherInformationResponse">
+      <class ref="hello.wsdl.GetWeatherInformationResponse"/>
+    </bindings>
+    <bindings scd="~tns:ArrayOfWeatherDescription">
+      <class ref="hello.wsdl.ArrayOfWeatherDescription"/>
+    </bindings>
+    <bindings scd="tns:GetCityForecastByZIP">
+      <class ref="hello.wsdl.GetCityForecastByZIP"/>
+    </bindings>
+    <bindings scd="tns:GetCityForecastByZIPResponse">
+      <class ref="hello.wsdl.GetCityForecastByZIPResponse"/>
+    </bindings>
+    <bindings scd="~tns:ForecastReturn">
+      <class ref="hello.wsdl.ForecastReturn"/>
+    </bindings>
+    <bindings scd="tns:GetCityWeatherByZIP">
+      <class ref="hello.wsdl.GetCityWeatherByZIP"/>
+    </bindings>
+    <bindings scd="tns:GetCityWeatherByZIPResponse">
+      <class ref="hello.wsdl.GetCityWeatherByZIPResponse"/>
+    </bindings>
+    <bindings scd="~tns:WeatherReturn">
+      <class ref="hello.wsdl.WeatherReturn"/>
+    </bindings>
+    <bindings scd="~tns:WeatherDescription">
+      <class ref="hello.wsdl.WeatherDescription"/>
+    </bindings>
+    <bindings scd="~tns:ArrayOfForecast">
+      <class ref="hello.wsdl.ArrayOfForecast"/>
+    </bindings>
+    <bindings scd="~tns:Forecast">
+      <class ref="hello.wsdl.Forecast"/>
+    </bindings>
+    <bindings scd="~tns:temp">
+      <class ref="hello.wsdl.Temp"/>
+    </bindings>
+    <bindings scd="~tns:POP">
+      <class ref="hello.wsdl.POP"/>
+    </bindings>
+  </bindings>
+</bindings>
+
